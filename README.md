@@ -34,12 +34,14 @@ The Rice Life Disease Dataset is a comprehensive collection of 4684 high resolut
 3. Validate the model's performance using appropriate metrics and ensure its robustness and reliability in real-world scenarios.
 
 # Data Understanding 
-On detailed scrutiny of the data we found 
+On detailed scrutiny of the data we found our data has below distribution of each class in train,test and valid (0.7,0.15,0.15) respectively.
 
-our data has below distribution of each class in train,test and valid (0.7,0.15,0.15),respectively.
+![Table](https://github.com/saivarshitnune/Rice-plant-disease-classification/assets/121888709/236412e5-6ab1-44bd-b6d5-165fbf6877a9)
+
+
+
     
 
-    ![Table](https://github.com/saivarshitnune/Rice-plant-disease-classification/assets/121888709/2c8e0d28-6105-48c6-86af-eb7f5bcffd07)
 
 
 Our classification is mainly influenced by brown colour pigmentation on the leaf. It is observed that
@@ -69,12 +71,28 @@ So brown colour pigmentation is common in all the disease types. Our selected mo
   
   Number of epochs : 50
   
-  Call backs - 
+  Call backs - EarlyStopping , ModelCheckpoints.
   
 # Performance evaluation metrics
- 1. Confusion matrix
+ 1. Confusion matrix :
     
- Achieved an accuracy of 99.98 % , 100% recall , precision and F1 scores respectively by training on Pretrained ResNet50 0n imagenet dataset.
+      ![cm](https://github.com/saivarshitnune/Rice-plant-disease-classification/assets/121888709/77c1363f-997a-4307-99c4-9ffd642e45c9)
+    
+      There are no missclassifications and model has perfectly classified each sample to respective class.
+    
+2. Classification Report :
+
+   ![CR](https://github.com/saivarshitnune/Rice-plant-disease-classification/assets/121888709/fd354225-c51a-435f-8f2e-0e23443f00a4)
+   
+   Achieved an
+   
+   Test Accuracy of 100 %
+   
+   100% Recall
+    
+   100% precision
+   
+   100% F1 score
 
  # Conclusion 
  This project showcases the potential of deep learning models, particularly ResNet50, in addressing agricultural challenges. By accurately diagnosing and classifying rice plant diseases, this model contributes to better crop health and yield, ultimately supporting sustainable agriculture practices and can be improved by training with more diversified and more number of samples for robust disease classification.

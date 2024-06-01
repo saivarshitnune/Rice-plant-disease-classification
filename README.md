@@ -36,7 +36,8 @@ The Rice Life Disease Dataset is a comprehensive collection of 4684 high resolut
 # Data Understanding 
 On detailed scrutiny of the data we found our data has below distribution of each class in train,test and valid (0.7,0.15,0.15) respectively.
 
-![Table](https://github.com/saivarshitnune/Rice-plant-disease-classification/assets/121888709/236412e5-6ab1-44bd-b6d5-165fbf6877a9)
+![image](https://github.com/saivarshitnune/Rice-plant-disease-classification/assets/121888709/805989f7-6673-4443-a666-b625e035e92c)
+
 
 
 

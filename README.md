@@ -35,8 +35,12 @@ The Rice Life Disease Dataset is a comprehensive collection of 4684 high resolut
 
 # Data Understanding 
 On detailed scrutiny of the data we found 
-our data has 
-    #Table
+
+our data has below distribution of each class in train,test and valid (0.7,0.15,0.15),respectively.
+    
+
+    ![Table](https://github.com/saivarshitnune/Rice-plant-disease-classification/assets/121888709/2c8e0d28-6105-48c6-86af-eb7f5bcffd07)
+
 
 Our classification is mainly influenced by brown colour pigmentation on the leaf. It is observed that
 1. For the images which is having Bacterial Blight has long continuous brown pigmentation at the edges of the leaf

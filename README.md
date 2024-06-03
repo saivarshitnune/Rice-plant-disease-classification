@@ -98,12 +98,6 @@ So brown colour pigmentation is common in all the disease types. Our selected mo
  # Conclusion 
  This project showcases the potential of deep learning models, particularly ResNet50, in addressing agricultural challenges. By accurately diagnosing and classifying rice plant diseases, this model contributes to better crop health and yield, ultimately supporting sustainable agriculture practices and can be improved by training with more diversified and more number of samples for robust disease classification.
 
- # Try It out 
-  1. Open test.ipynb
-  2. Connect to google colab runtime
-  3. Run the cells that contain importing the required modules and downloading the model weights and loading the model 
-  4. Select the image from sample images and run the test cell and see the result
-
 
 
 
